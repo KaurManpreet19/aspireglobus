@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Box Icons CSS -->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css" />
+    <!-- Mean Menu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <!-- Flat Icon CSS -->
+    <link rel="stylesheet" href="assets/fonts/flaticon.css" />
+    <!-- Modal Video CSS -->
+    <link rel="stylesheet" href="assets/css/modal-video.min.css" />
+    <!-- Odometer CSS -->
+    <link rel="stylesheet" href="assets/css/odometer.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Theme Dark CSS -->
+    <link rel="stylesheet" href="assets/css/theme-dark.css" />
+
+    <title>Services | Aspire Globus</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/png" href="assets/img/favicon.jpg" />
+    <style>
+      .serviceBox1 i {
+        color: white;
+        font-size: 60px;
+      }
+      .main-nav.four nav .navbar-nav .nav-item a:hover,
+      .main-nav.four nav .navbar-nav .nav-item a:focus,
+      .main-nav.four nav .navbar-nav .nav-item a.active {
+        color: white;
+      }
+      .about-content .top-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: darkred;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .about-content h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        line-height: 50px;
+      }
+      .about-content p {
+        margin-bottom: 30px;
+        position: relative;
+        padding-left: 10px;
+      }
+      .default-btn {
+        font-size: 16px;
+        color: #ffffff;
+        transition: all ease 0.5s;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: darkred;
+        border-radius: 3px;
+        border: 1px solid darkred;
+        font-weight: 600;
+        border-radius: 50px;
+        line-height: 29px;
+      }
+      .services-area .section-title {
+        max-width: 800px;
+        margin: -5px auto 50px;
+        text-align: center;
+        position: relative;
+      }
+      .section-title .top-title {
+        font-size: 16px;
+        color: white;
+        display: block;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+      .bg-blue-tabs {
+        background: #3e3e3e;
+        padding: 46px calc(0.3rem + 1.5vw);
+      }
+      .vertical-tabs .nav-link.active {
+        background: transparent;
+        color: white;
+        border-bottom: 1px solid #ffffff;
+      }
+      .link-arrow::before {
+        display: inline-block;
+        order: 10;
+        margin-left: -6px;
+        margin-right: 1rem;
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        transform: rotate(-45deg);
+        transition: width ease 0.3s, margin ease 0.3s;
+      }
+      .link-arrow::after {
+        display: inline-block;
+        content: "";
+        width: 1rem;
+        margin-left: 0.5rem;
+        height: 2px;
+        background-color: currentColor;
+        transition: width ease 0.3s, margin ease 0.3s;
+      }
+      .vertical-tabs .nav-link {
+        color: #fff;
+        font-size: 16px;
+        border-radius: 0;
+        text-align: left;
+        border-bottom: 1px solid #697c8d;
+        font-weight: 700;
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        padding: 1rem 0;
+      }
+      .section-title h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        line-height: 50px;
+      }
+      .services-area .section-title p {
+        max-width: 900px;
+        margin: auto;
+      }
+      .bg-light-tabs {
+        background: #f1f5f7;
+        padding: calc(0.4rem + 2.5vw) calc(0.4rem + 3.8vw);
+      }
+      .bg-color-f1f5f7 {
+        background-color: #f1f5f7;
+      }
+      .about-content p::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background-color: darkred;
+      }
+      section.key-points .bg-parallex-overlay {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #8b0000c7;
+        z-index: 1;
+      }
+      section.key-points.bg-parallex {
+        background: url(./assets/images/bg-parallex.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 0;
+        position: relative;
+        z-index: -1;
+      }
+      .serviceBox1 {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+      }
+      .serviceBox1 h3 {
+        color: #fff;
+        font-size: 20px;
+      }
+      .custom-process {
+        background: #f1f7f8;
+        padding-top: 100px;
+      }
+      .choose-us-content .top-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: darkred;
+        margin-bottom: 10px;
+        display: block;
+      }
+      .choose-us-content h2 {
+        font-size: 36px;
+        margin-bottom: 12px;
+      }
+      .choose-us-content p {
+        margin-bottom: 40px;
+        position: relative;
+        z-index: 1;
+        padding-left: 15px;
+      }
+      .choose-us-img::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -30px;
+        bottom: -30px;
+        width: 300px;
+        height: 300px;
+        background-color: darkred;
+        z-index: -1;
+      }
+      .choose-us-img {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px;
+        margin-left: 30px;
+      }
+      .choose-us-content p::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background-color: darkred;
+      }
+      .industries-served-custom {
+        background: #3e3e3e;
+      }
+      .section-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+        margin-top: -5px;
+      }
+      .section-title {
+        max-width: 700px;
+        margin: -5px auto 50px;
+        text-align: center;
+        position: relative;
+      }
+      .section-title .top-title {
+        font-size: 16px;
+        color: darkred;
+        display: block;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+      .industries-served-custom .bussiness-modals li {
+        display: block;
+        padding: 1.375rem 2rem;
+        margin: 1rem;
+        border-radius: 4px;
+        background-color: #fff;
+        min-width: 195px;
+        text-align: center;
+        font-weight: 600;
+      }
+      .industries-served-custom .bussiness-modals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .industries-served-custom h2 {
+        color: #fff;
+      }
+
+      @media only screen and (max-width: 767px) {
+        .choose-us-content .top-title {
+          font-size: 14px;
+        }
+        .choose-us-content h2 {
+          font-size: 28px;
+        }
+        .choose-us-content p {
+          margin-bottom: 40px;
+          position: relative;
+          z-index: 1;
+          padding-left: 15px;
+        }
+        .about-content h2 {
+          font-size: 22px;
+          line-height: 34px;
+        }
+        .section-title .top-title {
+          font-size: 16px;
+          color: #11a63d;
+          display: block;
+          margin-bottom: 15px;
+          font-weight: 600;
+        }
+        .section-title h2 {
+          font-size: 28px;
+          line-height: 40px;
+        }
+        .boomAddressCard {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="loader">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="pre-load">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Navbar -->
+    <div class="navbar-area sticky-top">
+      <!-- Menu For Mobile Device -->
+      <div class="mobile-nav">
+        <a href="index.html" class="logo">
+          <img src="assets/img/logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <!-- Menu For Desktop Device -->
+      <div class="main-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" class="logo-one" alt="Logo" />
+              <img src="assets/img/logo.png" class="logo-two" alt="Logo" />
+            </a>
+            <div
+              class="collapse navbar-collapse mean-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ms-auto me-0">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link"
+                    >About <i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Corporate Overview </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Why us </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Leadership team </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="services.html" class="nav-link dropdown-toggle"
+                    >Services <i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Finance & Accounting</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">AP</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">AR</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Bookkeeping</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Tax Prepration</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Reconciliation</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Payroll</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Financial Reporting</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Insurance BPO Services</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Underwriting Support</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Policy Maintenance </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >New Business Services
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Claim Management </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Commission management
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Insurance Data Entry </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Insurance Reporting </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Data Management Services</a>
+
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Data Entry </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Data Processing </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Data Analytics </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Data Mining</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Data Catalogue Management
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Forms processing </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="mortage-services.html" class="nav-link"
+                        >Mortage Services</a
+                      >
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Mortgage loan Processing
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Mortgage loan Appraisal
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Mortgage loan Closing
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Underwriting Services
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Call Center Services</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Inbound</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Outbound </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Order Management </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Sales and Customer Acquisition
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Customer care </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Email Support </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Live Chat </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link"
+                            >Technical and Help desk</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Immigration</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link dropdown-toggle"
+                    >Insights <i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Case Studies </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Whitepapers </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Infographics </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">News </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Page Title -->
+    <div class="page-title-area title-bg-two">
+      <div class="title-shape">
+        <img src="assets/img/title/title-bg-shape.png" alt="Shape" />
+      </div>
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="container">
+            <div class="title-content">
+              <h2>Services</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Who we are  -->
+
+    <div class="services-area pt-100 pb-70 bg-color-f1f5f7">
+      <div class="about-area cutom-margin-l-0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="about-img mr-15">
+                <div
+                  class="about-img-1 wow animate__animated animate__fadeInUp delay-0-2s animated animated"
+                  style="visibility: visible; animation-name: fadeInUp"
+                >
+                  <img src="assets/images/about-img-4.jpg" alt="Images" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="about-content wow animate__animated animate__fadeInUp delay-0-4s animated animated"
+                style="visibility: visible; animation-name: fadeInUp"
+              >
+                <span class="top-title">Who We Are</span>
+                <h2>Simplify Your Finances With our Bookkeeping Experts</h2>
+                <p>
+                  We are an established bookkeeping firm with 15+ years of
+                  experience in providing business-specific bookkeeping
+                  services. Our seasoned team of bookkeeping experts offers
+                  tailored, process-driven solutions to help you streamline your
+                  bookkeeping practices. Our bookkeeping team is adept at
+                  handling single-entry, double-entry, cash-based, accrual-based
+                  bookkeeping, and business financial transactions. We will
+                  assess your requirements, update your financials and manage
+                  your books.
+                </p>
+                <a href="about-us.html" class="default-btn"> Let’s Talk </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Who we are  Ending -->
+
+    <!-- Tabs Section -->
+
+    <div class="services-area pt-100 pb-100">
+      <div class="container">
+        <div
+          class="section-title wow animate__animated animate__fadeInUp delay-0-2s animated"
+          style="visibility: visible; animation-name: fadeInUp"
+        >
+          <span class="top-title">Services Provided</span>
+          <h2>
+            Expert Bookkeeping Services<span class="br"><br /></span>for Your
+            Business
+          </h2>
+          <p>
+            Our unparalleled bookkeeping services guarantee up-to-the-minute
+            support for all your accounting and bookkeeping requirements. Here
+            are some of our key bookkeeping services.
+          </p>
+        </div>
+        <div class="container vertical-tabs">
+          <div class="row custom-border-round">
+            <div class="col-lg-4 bg-blue-tabs">
+              <!-- Tab navs -->
+              <div
+                class="nav flex-column nav-pills text-center"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <a
+                  class="nav-link active link-arrow"
+                  id="v-pills-link1-tab"
+                  data-mdb-toggle="pill"
+                  href="#v-pills-link1"
+                  role="tab"
+                  aria-controls="v-pills-link1"
+                  aria-selected="true"
+                >
+                  <i class="ri-booklet-line"></i> Bookkeeping services
+                </a>
+
+                <a
+                  class="nav-link link-arrow"
+                  id="v-pills-link2-tab"
+                  data-mdb-toggle="pill"
+                  href="#v-pills-link2"
+                  role="tab"
+                  aria-controls="v-pills-link2"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <i class="ri-shield-check-line"></i> CPA Bookkeeping
+                  Services</a
+                >
+                <a
+                  class="nav-link link-arrow"
+                  id="v-pills-link3-tab"
+                  data-mdb-toggle="pill"
+                  href="#v-pills-link3"
+                  role="tab"
+                  aria-controls="v-pills-link3"
+                  aria-selected="false"
+                  tabindex="-1"
+                  ><i class="ri-money-dollar-box-line"></i> Payroll
+                  Processing</a
+                >
+                <a
+                  class="nav-link link-arrow"
+                  id="v-pills-link4-tab"
+                  data-mdb-toggle="pill"
+                  href="#v-pills-link4"
+                  role="tab"
+                  aria-controls="v-pills-link4"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <i class="ri-database-2-line"></i> Financial Reporting
+                </a>
+                <a
+                  class="nav-link link-arrow"
+                  id="v-pills-link5-tab"
+                  data-mdb-toggle="pill"
+                  href="#v-pills-link5"
+                  role="tab"
+                  aria-controls="v-pills-link5"
+                  aria-selected="false"
+                  tabindex="-1"
+                  ><i class="ri-building-line"></i> Tax Preparation
+                </a>
+              </div>
+              <!-- Tab navs -->
+            </div>
+
+            <div class="col-lg-8 bg-light-tabs">
+              <!-- Tab content -->
+              <div class="tab-content m-0 p-0" id="v-pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="v-pills-link1"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-link1-tab"
+                >
+                  <h3>Bookkeeping Services</h3>
+                  <p>
+                    BookkeepingByPros has 15+ years of expertise in helping CPA
+                    firms, accounting firms, and all SMBs in their financial
+                    situation. Outsourcing bookkeeping services to us can be a
+                    valuable investment for businesses that want to streamline
+                    their financial management, reduce costs, and improve their
+                    decision-making. We offer our clients a stress-free
+                    financial management experience by employing
+                    state-of-the-art technology, allowing them to focus solely
+                    on their primary business pursuits.
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-link2"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-link2-tab"
+                >
+                  <h3>CPA Bookkeeping Services</h3>
+                  <p>
+                    Our CPA bookkeeping services will take care of the numbers
+                    while you create profitable strategies. BookkeepingByPros
+                    offers comprehensive accounting solutions for CPAs, acting
+                    as their trusted partner. With 15 years of experience, we
+                    have successfully served numerous SMBs and CPA firms. Our
+                    expertise lies in providing tax preparation, accounts
+                    payable, receivables, invoice processing, and financial
+                    reporting services to CPAs. Our proficiency ensures that you
+                    receive the best possible outcomes. With BookkeepingByPros,
+                    you can stay ahead of the competition and focus on your core
+                    business activities.
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-link3"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-link3-tab"
+                >
+                  <h3>Payroll Processing</h3>
+                  <p>
+                    Struggling to keep up with payroll processing? Outsourcing
+                    is a smart idea. We specialize in accurate payroll
+                    processing services to help you stay on top of your
+                    finances. Payroll processing can be a daunting task for many
+                    professionals, often due to compliance issues stemming from
+                    complex legislation. Don't let payroll challenges hinder
+                    your business growth. Our experts provide services with
+                    utmost accuracy and confidentiality. Moreover, we believe in
+                    keeping transparency with our clients and ensuring to take
+                    the stress out of the confusing process. We provide the
+                    following services like:
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-link4"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-link4-tab"
+                >
+                  <h3>Financial Reporting</h3>
+                  <p>
+                    Bookkeepig By Pros offers access to professional and
+                    effective reporting and analysis solutions. Our expert
+                    services can help you in making informed business decisions.
+                    Financial reporting and analysis is the heartbeat of a
+                    business. In the modern business world, streamlined
+                    reporting processes are indispensable for organizations
+                    striving to stay ahead of the curve. Financial reporting and
+                    analysis, in particular, are critical elements of the
+                    decision-making process, as they provide valuable insights
+                    into a company's financial well-being. By outsourcing your
+                    financial reporting and analysis services, you get access to
+                    expert financial services. BookkeepingByPros can help you
+                    gain a competitive edge over your financial performance by
+                    meticulously preparing your financial reports. Here is what
+                    we can provide you:
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-link5"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-link5-tab"
+                >
+                  <h3>Tax Preparation</h3>
+                  <p>
+                    Knowing that you have an optimized tax process and minimized
+                    liabilities gives you the utmost relaxation. But, the mere
+                    thought of a poorly optimized tax process and increased
+                    liabilities can turn you down. The best solution in such a
+                    scenario is to outsource your tax preparation services to
+                    stay compliant in every aspect. With 15 years of experience
+                    in the industry, we've helped countless small and
+                    medium-sized enterprises, tax, accounting firms, and CPA
+                    firms with our top-notch tax preparation services. Our team
+                    of skilled experts is well-versed in income tax and
+                    legislation laws, so you can rest assured that your taxes
+                    are in good hands. We specialize in providing the following
+                    services:
+                  </p>
+                </div>
+              </div>
+              <!-- Tab content -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs Ending -->
+
+    <!-- Key Points  -->
+
+    <section class="key-points bg-parallex">
+      <div class="bg-parallex-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="serviceBox1">
+              <span><i class="bi bi-people-fill"></i></span>
+              <h3 class="title">250+ Professionals</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="serviceBox1">
+              <div class="service-icon">
+                <span><i class="bi bi-check2-square"></i></span>
+              </div>
+              <h3 class="title">99% Accuracy</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="serviceBox1">
+              <div class="service-icon">
+                <span><i class="bi bi-cash-coin"></i></span>
+              </div>
+              <h3 class="title">25%-30% Cost Reduction</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="serviceBox1">
+              <div class="service-icon">
+                <span><i class="bi bi-bar-chart-fill"></i></span>
+              </div>
+              <h3 class="title">High-Quality</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Points Ending -->
+
+    <!-- Another Section -->
+    <div class="choose-us-area ptb-100 custom-process">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="choose-us-content">
+              <div
+                class="wow animate__animated animate__fadeInUp delay-0-2s animated animated"
+                style="visibility: visible; animation-name: fadeInUp"
+              >
+                <span class="top-title">Leave Bookkeeping to the Pros </span>
+                <h2>Get Financial Clarity at Your Fingertips</h2>
+                <p>
+                  Outsourcing bookkeeping to trustworthy firms offers countless
+                  advantages. We have extensive experience in a variety of
+                  industries and are dedicated to tailoring our services to meet
+                  our valuable clients' unique requirements. Here is how our
+                  services can benefit you:
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div
+              class="choose-us-img wow animate__animated animate__fadeInUp delay-0-2s animated animated"
+              style="visibility: visible; animation-name: fadeInUp"
+            >
+              <img src="assets/images/filler2-1-1.jpg" alt="Images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Another Section Ending -->
+
+    <!-- industries We served  -->
+    <div class="industries-served-custom pt-100 pb-100 bg-color-f1f5f7">
+      <div class="container">
+        <div
+          class="section-title wow animate__animated animate__fadeInUp delay-0-2s animated animated animated"
+          style="visibility: visible; animation-name: fadeInUp"
+        >
+          <span class="top-title" style="color: white"
+            >Industries We Served</span
+          >
+          <h2>Empowering your financial growth</h2>
+        </div>
+        <div class="served-industries">
+          <ul class="bussiness-modals">
+            <li>Real Estate</li>
+            <li>Banking</li>
+            <li>Healthcare</li>
+            <li>Manufacturing</li>
+            <li>Logistics</li>
+            <li>Retail</li>
+            <li>Hospitality</li>
+            <li>Technology</li>
+            <li>Telecom</li>
+            <li>Legal</li>
+            <li>Insurance</li>
+            <li>Automotive</li>
+            <li>Non-profit</li>
+            <li>Education</li>
+            <li>Construction</li>
+            <li>Entertainment</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- industries We served  -->
+
+    <!-- Services -->
+    <section class="services-area ptb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay active">
+              <i class="flaticon-marketing-strategy"></i>
+              <h3>
+                <a href="service-details.html">Business Strategy</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay">
+              <i class="flaticon-dollars-money-bag-with-a-clock"></i>
+              <h3>
+                <a href="service-details.html">Investment Planning</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay active">
+              <i class="flaticon-strategy-in-a-labyrinth"></i>
+              <h3>
+                <a href="service-details.html">Project Management</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay">
+              <i class="flaticon-trend"></i>
+              <h3>
+                <a href="service-details.html">Financial Analysis</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay active">
+              <i class="flaticon-evaluate"></i>
+              <h3>
+                <a href="service-details.html">Audit & Evaluation</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="services-item card-overlay">
+              <i class="flaticon-insurance"></i>
+              <h3>
+                <a href="service-details.html">Support & Maintain</a>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed
+                diam nonumy eirm od tempor invidunt ut labore et dolore magna
+              </p>
+              <a class="services-btn" href="service-details.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="pagination-area">
+          <ul>
+            <li>
+              <a href="#">Prev</a>
+            </li>
+            <li>
+              <a class="active" href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">Next</a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Testimonials -->
+
+    <section class="testimonials-area ptb-100">
+        <div class="container">
+          <div class="section-title" style="max-width:unset;">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <span class="sub-title">Testimonials</span>
+                <h2>See What Our Client's <span>Say</span> About Our Work</h2>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis libero facilis consequatur deleniti, ipsa provident?
+                  Culpa tenetur incidunt reprehenderit qui a voluptas perferendis
+                  officiis
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div
+            class="testimonials-slider owl-theme owl-carousel owl-loaded owl-drag"
+          >
+            <div class="owl-stage-outer">
+              <div
+                class="owl-stage"
+                style="
+                  transform: translate3d(-2592px, 0px, 0px);
+                  transition: all 1s ease 0s;
+                  width: 10368px;
+                "
+              >
+                <div class="owl-item cloned" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      Aspire values people, which makes you more responsible at
+                      work &amp; offers a great place with a friendly environment
+                      to grow and develop your skills. I thoroughly enjoy working
+                      with my team members in such a collaborative atmosphere.
+                    </p>
+                    <h3>Rajat Puri</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      This place is awesome to work. The working environment is so
+                      friendly &amp; calm. Best experience ever. Everyone is
+                      supportive &amp; work culture is so motivating. I'm so lucky
+                      that I have got chance to work with this company.
+                    </p>
+                    <h3>Sunaina Sharma</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item active" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      An elegant place to work in. The working is all professional
+                      and it is easy to understand working in an business oriented
+                      environment. Work load is not more than capabilities and can
+                      be handled in relaxed state, without any pressure to hit
+                      textbook targets. Work environment and team coordination is
+                      something that I would like to highlight.
+                    </p>
+                    <h3>Sandeep Thakur</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      Good workplace as your team leaders always gonna support u..
+                      made u feel like u can do anything with great postive
+                      attitude. Moreover, Good ambience, huge space for parking,
+                      cab facility for girls available. it's a good place to get
+                      higher achievements...
+                    </p>
+                    <h3>Tanya Asri</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      Aspire values people, which makes you more responsible at
+                      work &amp; offers a great place with a friendly environment
+                      to grow and develop your skills. I thoroughly enjoy working
+                      with my team members in such a collaborative atmosphere.
+                    </p>
+                    <h3>Rajat Puri</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      This place is awesome to work. The working environment is so
+                      friendly &amp; calm. Best experience ever. Everyone is
+                      supportive &amp; work culture is so motivating. I'm so lucky
+                      that I have got chance to work with this company.
+                    </p>
+                    <h3>Sunaina Sharma</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      An elegant place to work in. The working is all professional
+                      and it is easy to understand working in an business oriented
+                      environment. Work load is not more than capabilities and can
+                      be handled in relaxed state, without any pressure to hit
+                      textbook targets. Work environment and team coordination is
+                      something that I would like to highlight.
+                    </p>
+                    <h3>Sandeep Thakur</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 1296px">
+                  <div class="testimonials-item">
+                    <i class="bx bxs-quote-right icon"></i>
+                    <p>
+                      Good workplace as your team leaders always gonna support u..
+                      made u feel like u can do anything with great postive
+                      attitude. Moreover, Good ambience, huge space for parking,
+                      cab facility for girls available. it's a good place to get
+                      higher achievements...
+                    </p>
+                    <h3>Tanya Asri</h3>
+                    <span>by Google Review</span>
+                    <ul>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star checked"></i>
+                      </li>
+                      <li>
+                        <i class="bx bxs-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav">
+              <button type="button" role="presentation" class="owl-prev">
+                <i class="bx bx-chevron-left"></i></button
+              ><button type="button" role="presentation" class="owl-next">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+            <div class="owl-dots disabled"></div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Testimonial Ending  -->
+
+
+
+    <!-- CTA  -->
+    <section class="work-area contact-boom ptb-100">
+      <div class="container">
+        <div class="section-title" style="max-width: unset">
+          <div class="row">
+            <div class="col-lg-6">
+              <span class="sub-title" style="display: block; text-align: left"
+                >Contact Us</span
+              >
+              <h2 style="text-align: start">
+                See How We Manage A Wide Range Of Work
+              </h2>
+            </div>
+            <div class="col-lg-6">
+              <p style="text-align: start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis libero facilis consequatur deleniti, ipsa provident?
+                Culpa tenetur incidunt reprehenderit qui a voluptas perferendis
+                officiis
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row dsd">
+          <div class="col-lg-6">
+            <div class="boomRow d-flex">
+              <div class="card boomAddressCard shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-geo-alt-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                  ></path>
+                </svg>
+                <div class="card-body">
+                  <h5 class="card-title">OUR MAIN OFFICE</h5>
+                  <p class="dds card-text">
+                    94-23 Lefferts Blvd S0, Richmond Hill, New York 11419
+                  </p>
+                </div>
+              </div>
+              <div class="card boomAddressCard shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                  ></path>
+                </svg>
+                <div class="card-body">
+                  <h5 class="card-title">PHONE NUMBER</h5>
+                  <p class="card-text">
+                    <a class="cald" href="tel:01724674575">0172-4674575</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="boomRow d-flex">
+              <div class="card boomAddressCard shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-file-text-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"
+                  ></path>
+                </svg>
+                <div class="card-body">
+                  <h5 class="card-title">FAX</h5>
+                  <p class="card-text">
+                    <a class="cald" href="tel:01724674575">0172-4674575</a>
+                  </p>
+                </div>
+              </div>
+              <div class="card boomAddressCard shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                  ></path>
+                </svg>
+                <div class="card-body">
+                  <h5 class="card-title">EMAIL</h5>
+                  <p class="card-text">
+                    <a class="cald" href="tel:info@aspireglobus.com"
+                      >info@aspiregloubus.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form class="ctz shadow">
+              <h3>Get in touch</h3>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="">Message</label>
+
+                <textarea
+                  class="form-control"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+              </div>
+              <button type="submit" class="text-light btn btnColor">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA Ending -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer-area pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <div class="footer-logo">
+                <a class="footer-inva" href="index.html">
+                  <img
+                    src="assets/img/aspirenew.png"
+                    class="footerLogo"
+                    alt="Logo"
+                  />
+                </a>
+                <p class="footerContent">
+                  Aspire Business Solutions provides top-notch services that can
+                  help your company reduce costs and amplify the effectiveness
+                  of your company.
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/aspiremofficial/"
+                      target="_blank"
+                    >
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/aspireminc/"
+                      target="_blank"
+                    >
+                      <i class="bx bxl-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/aspire.business.solutions/"
+                      target="_blank"
+                    >
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <div class="footer-link">
+                <h3>Important Links</h3>
+                <ul>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="projects.html">Careers</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="faq.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <div class="footer-link">
+                <h3>Our Services</h3>
+                <ul>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Finance & Accounting Services</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Insurance BPO Services</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Data Management Services </a>
+                  </li>
+
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Mortage Services </a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Call Center Services</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <ul>
+                  <li>
+                    <i class="bx bxs-location-plus"></i>
+                    <span
+                      >94-23 Lefferts Blvd S0, Richmond Hill, New York
+                      11419</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bxs-phone-call"></i>
+                    <a href="tel:+0172-4674575"> 0172-4674575</a>
+                  </li>
+                  <li>
+                    <i class="bx bxs-paper-plane"></i>
+                    <a href="mailto:sales@aspireglobus.com"
+                      >sales@aspireglobus.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <p>
+            Copyright @
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Aspire Globus. All Right reserved
+            <a class="copyrightLocal" href="#" target="_blank"
+              >Aspire Digi Tech</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-shape">
+        <img src="assets/img/footer-bg.png" alt="Footer" />
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Go Top -->
+    <div class="go-top">
+      <i class="bx bxs-up-arrow-alt"></i>
+      <i class="bx bxs-up-arrow-alt"></i>
+    </div>
+    <!-- End Go Top -->
+
+    <!-- Essential JS -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+    ></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Form Validator JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Ajax Chip JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Mean Menu JS -->
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Modal Video JS -->
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+    <!-- Odometer JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="assets/js/smoothscroll.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
