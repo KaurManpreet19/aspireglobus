@@ -1267,4 +1267,17 @@
   .dsd {
     background: white;
   }
+}
+@media only screen and (max-width: 992px) {
+  header {
+    display: none;
+  }
+  .mobile-header-menu {
+    display: block;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .mobile-header-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=responsive.css.map */

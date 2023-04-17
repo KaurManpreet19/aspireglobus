@@ -5723,6 +5723,7 @@ a.menu-link.mega-menu-link {
     top: 100%;
     left: 0;
     width: 100%;
+    height: 550px;
   }
   .mega-menu:hover {
     display: flex;
