@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
   color: #090f13;
-  font-family: "Segoe UI Regular";
+  font-family: "Segoe UI Bold";
   font-weight: 700;
   color: #131c21;
 }
@@ -2752,7 +2752,7 @@ ul {
   right: 0;
   font-size: 150px;
   color: #444444;
-  font-family: "Segoe UI Regular";
+  font-family: "Segoe UI Bold";
   line-height: 115px;
 }
 .banner-area.three .banner-content {
