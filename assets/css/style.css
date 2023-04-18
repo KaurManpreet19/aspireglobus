@@ -42,7 +42,7 @@ This files table contents are outlined below>>>>>
 
 /*----- Default CSS -----*/
 body {
-  font-family: "Sen", sans-serif;
+  font-family: "Segoe UI Regular";
   color: #444444;
   background-color: #fff;
   font-size: 16px;
@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
   color: #090f13;
-  font-family: "Sen", sans-serif;
+  font-family: "Segoe UI Regular";
   font-weight: 700;
   color: #131c21;
 }
@@ -2752,7 +2752,7 @@ ul {
   right: 0;
   font-size: 150px;
   color: #444444;
-  font-family: "Sen", sans-serif;
+  font-family: "Segoe UI Regular";
   line-height: 115px;
 }
 .banner-area.three .banner-content {
@@ -3939,7 +3939,7 @@ ul {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.5;
-  font-family: "Sen", sans-serif;
+  font-family: "Segoe UI Regular";
 }
 .blog-details-area .details-item .details-quote blockquote span {
   font-weight: 600;
