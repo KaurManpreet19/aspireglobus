@@ -7565,3 +7565,16 @@ closelevel>i {
   position: relative;
   padding: 10px 0;
 }
+
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 17;
+  padding: auto;
+}
+.mobile-header-menu.fixed{
+  padding: 20px 0;
+}

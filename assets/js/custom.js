@@ -4,9 +4,17 @@ jQuery(function ($) {
     // Menu JS
     $(window).on('scroll', function() {
 		if ($(this).scrollTop() > 50) {
-			$('.main-nav').addClass('menu-shrink');
+			$('.nav').addClass('fixed');
 		} else {
-			$('.main-nav').removeClass('menu-shrink');
+			$('.nav').removeClass('fixed');
+		}
+    });	
+    // Menu JS
+    $(window).on('scroll', function() {
+		if ($(this).scrollTop() > 50) {
+			$('.mobile-header-menu').addClass('fixed');
+		} else {
+			$('.mobile-header-menu').removeClass('fixed');
 		}
     });	
 
