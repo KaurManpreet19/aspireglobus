@@ -33,9 +33,8 @@ This files table contents are outlined below>>>>>
 ** - Go Top CSS
 ** - Preloader CSS
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,500;1,400&family=Sen:wght@400;700;800&display=swap");
 .boomP {
   font-size: 18px;
 }
@@ -56,15 +55,15 @@ h5,
 h6 {
   color: #090f13;
   font-family: "Segoe UI Bold";
-  font-weight: 700;
   color: #131c21;
+  letter-spacing: 0.3px;
 }
 
 p {
   font-weight: 400;
   line-height: 1.59;
   margin: 0;
-  font-size: calc(70% + 0.24vw);
+  font-size: calc(80% + 0.24vw);
 }
 
 a {
@@ -1424,6 +1423,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  background-position: center;
 }
 .testimonials-area h2 {
   color: #fff;
@@ -1433,6 +1433,9 @@ ul {
 }
 .testimonials-area span.sub-title {
   color: #fff;
+  letter-spacing: 0.55px;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 .testimonials-area .testimonials-item {
   text-align: center;
@@ -1447,8 +1450,7 @@ ul {
 }
 .testimonials-area .testimonials-item p {
   margin-bottom: 25px;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 18px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -1522,6 +1524,13 @@ ul {
 .testimonials-area .owl-next:hover {
   background-color: #090f13 !important;
 }
+.testimonials-area .owl-dots {
+  margin-top: 30px;
+}
+
+.testimonials-slider .owl-nav {
+  display: none;
+}
 
 /*-- Blog --*/
 .blog-area {
@@ -1578,6 +1587,9 @@ ul {
 }
 .blog-item ul li span {
   display: inline-block;
+  font-size: 18px;
+  font-weight: 800;
+  color: #a11d1d;
 }
 .blog-item ul li a {
   display: inline-block;
@@ -1641,13 +1653,15 @@ ul {
 .blog-side-item ul li i {
   display: inline-block;
   font-size: 16px;
-  color: #a11d1d;
+  color: #090f13;
   position: relative;
   top: 1px;
 }
 .blog-side-item ul li span {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #a11d1d;
 }
 .blog-side-item ul li h4 {
   font-size: 20px;
@@ -5486,8 +5500,10 @@ img.mb-20 {
 .section-title .sub-title {
   display: inline-block;
   color: #9a1a18;
-  font-weight: 600;
   margin-bottom: 10px;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  font-weight: 400;
 }
 
 .custom-video-section {
@@ -5615,7 +5631,7 @@ nav a:visited {
   transition: background 0.2s, color 0.2s;
   position: relative;
   z-index: 1;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
@@ -6094,4 +6110,50 @@ closelevel > i {
 
 .mobile-header-menu.fixed {
   padding: 20px 0;
+}
+
+i.bx.bxs-quote-left.size-larged {
+  font-size: 70px;
+  line-height: 50px;
+  color: #a11d1d;
+}
+
+.testimonial-heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.testimonial-heading span.sub-title {
+  margin-bottom: 0;
+}
+
+.single_counter_inner {
+  position: relative;
+}
+.single_counter_inner.custom-before-line::before {
+  position: absolute;
+  content: "";
+  right: -39px;
+  height: 80px;
+  width: 1px;
+  background: #fff;
+  top: 0;
+  opacity: 0.4;
+}
+.single_counter_inner h1 {
+  color: #fff;
+}
+.single_counter_inner h4 {
+  color: #fff;
+  text-align: right;
+}
+.single_counter_inner .countr_text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+}
+.single_counter_inner .countr_text h3 {
+  color: #a11d1d;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

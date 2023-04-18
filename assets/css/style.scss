@@ -34,12 +34,10 @@ This files table contents are outlined below>>>>>
 ** - Preloader CSS
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,500;1,400&family=Sen:wght@400;700;800&display=swap');
 
-
-$common-font:'Segoe UI Regular';
+$common-font: 'Segoe UI Regular';
 $heading-font: 'Segoe UI Bold';
 $all-size: 16px;
 $transition: 0.5s all ease;
@@ -71,15 +69,15 @@ h5,
 h6 {
   color: $main-color;
   font-family: $heading-font;
-  font-weight: 700;
   color: #131c21;
+  letter-spacing: 0.3px;
 }
 
 p {
   font-weight: 400;
   line-height: 1.59;
   margin: 0;
-  font-size:calc(70% + 0.24vw);
+  font-size: calc(80% + 0.24vw);
 }
 
 a {
@@ -855,7 +853,7 @@ ul {
 
 .banner-item {
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 800px;
@@ -867,7 +865,7 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    background:linear-gradient(90deg, rgb(10 15 19 / 98%) 30%, rgba(255, 255, 255, 0) 100%)
+    background: linear-gradient(90deg, rgb(10 15 19 / 98%) 30%, rgba(255, 255, 255, 0) 100%)
   }
 }
 
@@ -1715,20 +1713,27 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   color: $white-color;
+  background-position: center;
 
   h2 {
     color: $white-color;
   }
-  h3{
+
+  h3 {
     color: $dark-red;
   }
-  span.sub-title{
+
+  span.sub-title {
     color: $white-color;
+    letter-spacing: 0.55px;
+    font-family: 'Poppins';
+    font-weight: 400;
   }
+
   .testimonials-item {
     text-align: center;
     background: #fff;
-    padding:20px;
+    padding: 20px;
 
     .icon {
       display: inline-block;
@@ -1740,16 +1745,16 @@ ul {
 
     p {
       margin-bottom: 25px;
-      font-size: 25px;
-      font-weight: 600;
+      font-size: 18px;
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
       line-height: 1.5;
       color: $main-color;
-    
+
     }
-    h3{
+
+    h3 {
       color: $dark-red;
     }
 
@@ -1770,7 +1775,7 @@ ul {
       display: block;
       font-size: 15px;
       margin-bottom: 8px;
-      color:$main-color;
+      color: $main-color;
     }
 
     ul {
@@ -1830,6 +1835,16 @@ ul {
     &:hover {
       background-color: $main-color !important;
     }
+  }
+
+  .owl-dots {
+    margin-top: 30px;
+  }
+}
+
+.testimonials-slider {
+  .owl-nav {
+    display: none;
   }
 }
 
@@ -1899,6 +1914,9 @@ ul {
 
       span {
         display: inline-block;
+        font-size: 18px;
+        font-weight: 800;
+        color: $dark-red;
       }
 
       a {
@@ -1976,14 +1994,16 @@ ul {
       i {
         display: inline-block;
         font-size: 16px;
-        color: $dark-red;
+        color: $main-color;
         position: relative;
         top: 1px;
       }
 
       span {
         display: inline-block;
-        font-size: 14px;
+        font-size: 18px;
+        font-weight: 800;
+        color: $dark-red;
       }
 
       h4 {
@@ -6708,6 +6728,7 @@ p.inner-banner-para {
         font-size: 30px;
 
       }
+
       span {
         display: block;
         color: #000000;
@@ -6882,8 +6903,11 @@ img.mb-20 {
 .section-title .sub-title {
   display: inline-block;
   color: #9a1a18;
-  font-weight: 600;
   margin-bottom: 10px;
+  font-family: 'Poppins';
+  letter-spacing: 0.5px;
+  font-weight: 400;
+
 }
 
 .custom-video-section {
@@ -7033,7 +7057,7 @@ nav a:visited {
   transition: background 0.2s, color 0.2s;
   position: relative;
   z-index: 1;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
 }
 
@@ -7076,7 +7100,7 @@ a.menu-link.mega-menu-link {
 
 @media all and (min-width: 951px) {
   .nav {
-    background:#9a1a18;
+    background: #9a1a18;
   }
 
   .nav>nav {
@@ -7575,6 +7599,68 @@ closelevel>i {
   z-index: 17;
   padding: auto;
 }
-.mobile-header-menu.fixed{
+
+.mobile-header-menu.fixed {
   padding: 20px 0;
+}
+
+i.bx.bxs-quote-left.size-larged {
+  font-size: 70px;
+  line-height: 50px;
+  color: $dark-red;
+}
+
+.testimonial-heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  span.sub-title {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.single_counter_inner {
+
+  position: relative;
+
+  &.custom-before-line {
+    &::before {
+      position: absolute;
+      content: "";
+      right: -39px;
+      height: 80px;
+      width: 1px;
+      background: $white-color;
+      top: 0;
+      opacity: 0.4;
+    }
+  }
+
+
+
+
+  h1 {
+    color: $white-color;
+  }
+
+  h4 {
+    color: $white-color;
+    text-align: right;
+  }
+
+  .countr_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+
+    h3 {
+      color: $dark-red;
+      font-weight: 700;
+    }
+  }
+
 }
