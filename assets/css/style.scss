@@ -7438,7 +7438,7 @@ ul.pushNav {
   top: 0;
   z-index: 100;
   overflow: hidden;
-  background: #2e2f35;
+  background: #0a0f13;
   transition: ease-in-out 0.5s;
 }
 
@@ -7497,12 +7497,13 @@ closelevel>i {
 
 .burger {
   position: absolute;
-  right: 50px;
+  right: 15px;
   top: 25px;
 }
 
 .burger i {
   font-size: 3em;
+  color: #0a0f13;
 }
 
 .screen {
