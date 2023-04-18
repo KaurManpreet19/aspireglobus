@@ -1456,9 +1456,7 @@ ul {
 }
 
 /*-- Projects --*/
-.projects-area {
-  &.section-overlay {}
-}
+
 
 .projects-item {
   margin-bottom: 75px;
@@ -6710,9 +6708,6 @@ p.inner-banner-para {
         font-size: 30px;
 
       }
-
-      .text {}
-
       span {
         display: block;
         color: #000000;
@@ -6739,14 +6734,7 @@ p.inner-banner-para {
   padding: 0 !important;
 }
 
-ul.menu.menu-bar {
-  li {
-    a {
-      &:first-child {}
-    }
 
-  }
-}
 
 ul.mega-menu.mega-menu--multiLevel {
   ul.menu.menu-list {
