@@ -35,14 +35,14 @@ This files table contents are outlined below>>>>>
 */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap");
 .boomP {
   font-size: 18px;
 }
 
 /*----- Default CSS -----*/
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sen", sans-serif;
   color: #444444;
   background-color: #fff;
   font-size: 16px;
@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
   color: #090f13;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sen", sans-serif;
   font-weight: 700;
   color: #131c21;
 }
@@ -697,20 +697,20 @@ ul {
 
 /*-- Banner --*/
 .banner-bg-one {
-  background-image: url("../img/banner/home-banner-bg.webp");
+  background-image: url("../images/bg2.webp");
 }
 
 .banner-bg-two {
-  background-image: url("../img/banner/home-banner-bg.webp");
+  background-image: url("../images/bg2.webp");
 }
 
 .banner-bg-three {
-  background-image: url("../img/banner/home-banner-bg.webp");
+  background-image: url("../images/bg2.webp");
 }
 
 .banner-item {
   background-size: cover;
-  background-position: inherit;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 800px;
@@ -816,7 +816,7 @@ ul {
   top: 0;
   height: 100%;
   width: 31%;
-  border-top: 172px solid #090f13;
+  border-top: 172px solid #a11d1d;
   border-right: 70px solid transparent;
 }
 .logo-area .logo-text {
@@ -2752,7 +2752,7 @@ ul {
   right: 0;
   font-size: 150px;
   color: #444444;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sen", sans-serif;
   line-height: 115px;
 }
 .banner-area.three .banner-content {
@@ -3939,7 +3939,7 @@ ul {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sen", sans-serif;
 }
 .blog-details-area .details-item .details-quote blockquote span {
   font-weight: 600;
