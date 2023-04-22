@@ -3238,7 +3238,7 @@ ul {
 
 /*-- Subscribe --*/
 .subscribe-area {
-  background-image: url("../img/subscribe-bg.jpg");
+  background: url(../images/slider_1.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3263,11 +3263,13 @@ ul {
   }
 
   .subscribe-wrap {
-    max-width: 600px;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align: center;
 
     .section-title.two {
       margin-bottom: 25px;
-      text-align: left;
+      text-align: center;
 
       h2 {
         color: $white-color;
@@ -6623,7 +6625,7 @@ hr.hrD {
   position: relative;
   height: 700px;
   z-index: 1;
-  background-image: url(../images/s1-Img-1.webp);
+  background: url('../images/BG-Banners.jpg');
 
 
   .title-content {
@@ -6938,7 +6940,6 @@ img.mb-20 {
 }
 
 .Custom-about-values {
-  background-image: url(../images/bgn-team.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -6955,7 +6956,7 @@ img.mb-20 {
     top: 0;
     height: 100%;
     width: 55%;
-    border-top: 640px solid #232832;
+    border-top: 640px solid #0a0f13;
     border-left: 70px solid transparent;
   }
 
@@ -7663,4 +7664,181 @@ i.bx.bxs-quote-left.size-larged {
     }
   }
 
+}
+
+.insights-section-list {
+  .col-lg-3.col-sm-12 {
+    padding: 0;
+  }
+
+  .col-lg-6.col-sm-12 {
+    padding: 0;
+  }
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .insights-image-over {
+    position: relative;
+
+    .section-title {
+      position: absolute;
+      position: absolute;
+      bottom: 40px;
+      left: 10px;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .Dark-red-bg {
+    background: #931713;
+
+    .section-title {
+      padding: 10px;
+      margin-bottom: 0;
+      margin-top: 0;
+      height: 100%;
+      padding-top: 120px;
+
+      span {
+        color: $white-color !important;
+      }
+
+      h2 {
+        color: $white-color !important;
+      }
+
+      p {
+        color: $white-color !important;
+      }
+
+    }
+  }
+
+  .Dark-blue-bg {
+    background: #090f13;
+
+    .section-title {
+      padding: 10px;
+      margin-bottom: 0;
+      margin-top: 0;
+      height: 100%;
+      padding-top: 120px;
+
+      span {
+        color: $white-color !important;
+      }
+
+      h2 {
+        color: $white-color !important;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+
+      p {
+        color: $white-color !important;
+      }
+
+    }
+  }
+}
+
+a.c-preview {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+
+    &:hover {
+      height: 100%;
+    }
+  }
+
+  .c-preview__img {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+
+  }
+
+  a.c-preview:hover .c-preview__img {
+    height: 100%;
+  }
+
+}
+
+.square {
+  height: 100%;
+  widtH: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.square:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.5s ease-out;
+  background: linear-gradient(to bottom, transparent 0%, #090f13 100%);
+}
+
+.square:hover:before {
+  height: 100%;
+}
+
+.square .section-title {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  z-index: 99999;
+}
+
+.square:hover .section-title span.sub-title.boomProjects {
+  color: $white-color !important;
+  transition: height 0.5s ease-out;
+}
+
+.square:hover .section-title h2 {
+  color: $white-color;
+  transition: height 0.5s ease-out;
+}
+
+.square:hover .section-title p {
+  color: $white-color;
+  transition: height 0.5s ease-out;
+}
+
+section.blog-area.Blog-section.insights-section-main {
+  .row.align-items-center.ptb-100 {
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+
+    span {
+      text-align: center;
+      display: block;
+    }
+  }
 }
