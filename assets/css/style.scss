@@ -7765,7 +7765,9 @@ a.c-preview {
       height: 100%;
     }
   }
-
+  .section-title{
+    text-align: left;
+  }
   .c-preview__img {
     content: '';
     display: block;
@@ -7833,11 +7835,14 @@ section.blog-area.Blog-section.insights-section-main {
     text-align: center;
   }
 
-  .section-title {
+  .row.insights-section-list {
+    .section-title {
+      text-align: left;
 
-    span {
-      text-align: center;
-      display: block;
+      span {
+        text-align: center;
+        display: block;
+      }
     }
   }
 }

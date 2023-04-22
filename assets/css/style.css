@@ -6240,6 +6240,9 @@ a.c-preview::before {
 a.c-preview::before:hover {
   height: 100%;
 }
+a.c-preview .section-title {
+  text-align: left;
+}
 a.c-preview .c-preview__img {
   content: "";
   display: block;
@@ -6301,7 +6304,10 @@ a.c-preview a.c-preview:hover .c-preview__img {
 section.blog-area.Blog-section.insights-section-main .row.align-items-center.ptb-100 {
   text-align: center;
 }
-section.blog-area.Blog-section.insights-section-main .section-title span {
+section.blog-area.Blog-section.insights-section-main .row.insights-section-list .section-title {
+  text-align: left;
+}
+section.blog-area.Blog-section.insights-section-main .row.insights-section-list .section-title span {
   text-align: center;
   display: block;
 }/*# sourceMappingURL=style.css.map */
