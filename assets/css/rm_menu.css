@@ -183,58 +183,9 @@ li .drop-icon a{
 	margin-right: 0px !important;
 }
 
-form > div {
-    width: 50%;
-    float: left;
-    padding: 0 15px 30px;
-}
-form label {
-    color: #7a8595;
-    font-weight: normal;
-}
-form input {
-    height: 40px;
-    border: 1px solid #d6d9de;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-.details form .submit-btn-wrapper {
-    width: 100%;
-    float: none;
-    padding-bottom: 0;
-    clear: both;
-}
 
- form .rmm-btn {
-    font-family: "montserrat", sans-serif;
-    background-color: #a11d1d;
-    width: 100%;
-    height: 40px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    border: 0;
-    outline: 0;
-}
+
+
 .cover-background {
     position: relative !important;
     background-size: cover !important;

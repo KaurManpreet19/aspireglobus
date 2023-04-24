@@ -1280,4 +1280,34 @@
   .mobile-header-menu {
     display: none;
   }
+}
+@media only screen and (max-width: 1366px) {
+  .ctaform {
+    position: relative;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .counter-area {
+    padding: 0;
+  }
+  .single_counter_inner h4 {
+    font-size: 17px;
+  }
+  .menu-area {
+    display: none;
+  }
+  .mobile-header-menu {
+    display: block;
+  }
+  .header__middle {
+    display: none;
+  }
+  .footer-area .footer-item .footer-link ul li {
+    display: flex;
+    gap: 4px;
+  }
+  .mobile-dnone {
+    display: none;
+  }
 }/*# sourceMappingURL=responsive.css.map */
