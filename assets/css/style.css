@@ -276,7 +276,6 @@ ul {
   font-size: 27px;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 10px;
 }
 
 .whyDifferent {
@@ -4920,12 +4919,13 @@ ul {
 }
 .loader .pre-load {
   position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 32px);
-  width: 85px;
-  height: 85px;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
-  perspective: 800px;
+  perspective: 500px;
+  transform: translate(-50%, -50%);
 }
 .loader .pre-load .inner {
   position: absolute;
