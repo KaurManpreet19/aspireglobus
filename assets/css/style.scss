@@ -320,7 +320,6 @@ ul {
   text-align: center;
 
   .row {
-    max-width: 700px;
     margin: 0 auto;
   }
 
@@ -342,10 +341,23 @@ ul {
     align-items: center;
   }
 
+  a {
+    color: $main-color;
+    font-family: "Poppins";
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 16px;
+
+    &:hover {
+      color: $dark-red;
+
+    }
+  }
+
   i {
     font-size: 32px;
     margin-right: 8px;
-    color: darkred;
+    color: $dark-red;
   }
 }
 
@@ -2039,7 +2051,7 @@ ul {
   background-color: $main-color;
   position: relative;
   z-index: 1;
-  background: url(../images/bg-footer.jpg);
+  // background: url(../images/bg-footer.jpg);
 
   .footer-shape {
     img {
@@ -2071,7 +2083,7 @@ ul {
       p {
         margin-bottom: 30px;
         color: $white-color;
-        
+
       }
 
       ul {
@@ -6959,13 +6971,21 @@ img.mb-20 {
     top: 0;
     height: 100%;
     width: 55%;
-    border-top: 640px solid #0a0f13;
+    border-top: 640px solid $main-color;
     border-left: 70px solid transparent;
   }
 
   .section-title {
+    span {
+      color: #fff;
+    }
+
     h2 {
       color: #fff;
+
+      span {
+        color: $dark-red;
+      }
     }
 
     p {
@@ -8215,6 +8235,13 @@ ul.footer-links {
     }
   }
 }
+
 .borRight {
   border-right: none !important;
+}
+
+.Ceo-section {
+  .testimonial-heading {
+    padding: 40px 0;
+  }
 }
