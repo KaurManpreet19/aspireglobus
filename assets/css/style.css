@@ -64,11 +64,16 @@ p {
   line-height: 1.59;
   margin: 0;
   font-size: calc(80% + 0.24vw);
+  margin-bottom: 5px;
 }
 
 a {
   transition: 0.5s all ease;
   text-decoration: none;
+  color: #3e3e3e;
+}
+a:hover {
+  color: #3e3e3e;
 }
 
 img {
@@ -270,6 +275,8 @@ ul {
 .whyCTACover .whyCTA p {
   font-size: 27px;
   font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 .whyDifferent {
@@ -6206,7 +6213,7 @@ i.bx.bxs-quote-left.size-larged {
   margin-bottom: 0;
   margin-top: 0;
   height: 100%;
-  padding-top: 120px;
+  padding-top: 45px;
 }
 .insights-section-list .Dark-red-bg .section-title span {
   color: #fff !important;
@@ -6420,6 +6427,10 @@ section.blog-area.Blog-section.insights-section-main .row.insights-section-list 
   background: url("../images/leadership-banner.jpg");
 }
 
+section.Blog-section.insights-section-main.ptb-100 .col-lg-4.col-sm-12 {
+  margin-bottom: 25px;
+}
+
 .item--meta {
   padding: 30px 22px;
   background-color: #fff;
@@ -6428,6 +6439,7 @@ section.blog-area.Blog-section.insights-section-main .row.insights-section-list 
   -o-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
   box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
   text-align: center;
+  height: 100%;
 }
 .item--meta .item--icon {
   line-height: 1;
@@ -6904,7 +6916,7 @@ ul.footer-links li a {
   z-index: 99999;
   top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
   color: white;
 }
 
@@ -6920,4 +6932,40 @@ a.border-btn {
   display: inline-block;
   font-size: 20px;
   color: #fff;
+}
+
+.choose-us-img::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -30px;
+  bottom: -30px;
+  width: 300px;
+  height: 300px;
+  background-color: darkred;
+  z-index: -1;
+}
+
+.choose-us-content .top-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: darkred;
+  display: block;
+}
+
+.choose-us-content p {
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+  padding-left: 15px;
+}
+
+.choose-us-content p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: darkred;
 }/*# sourceMappingURL=style.css.map */
