@@ -144,8 +144,7 @@ jQuery(function ($) {
         arrows: false,
         smartSpeed: 1000,
         autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         navText: [
             "<i class='bx bx-chevron-left'></i>",
             "<i class='bx bx-chevron-right'></i>"
@@ -162,7 +161,7 @@ jQuery(function ($) {
             1200: {
                 items: 3,
                 nav: true,
-                loop: false
+                loop: true
             }
         }
     });

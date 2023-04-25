@@ -41,7 +41,7 @@ $common-font: 'Segoe UI Regular';
 $heading-font: 'Segoe UI Bold';
 $all-size: 16px;
 $transition: 0.5s all ease;
-$main-color: #1f1f1f;
+$main-color: #3e3e3e;
 $paragraph-color: #444444;
 $white-color: #fff;
 $dark-red: #a11d1d;
@@ -977,7 +977,7 @@ ul {
     top: 0;
     height: 100%;
     width: 31%;
-    border-top: 172px solid #a11d1d;
+    border-top: 172px solid $main-color;
     border-right: 70px solid transparent;
   }
 
@@ -1150,7 +1150,7 @@ ul {
   transition: $transition;
   margin-bottom: 30px;
   z-index: 1;
-  height:100%;
+  height: 100%;
 
   &:hover {
     transform: translate(0, -10px);
@@ -2071,6 +2071,7 @@ ul {
       p {
         margin-bottom: 30px;
         color: $white-color;
+        
       }
 
       ul {
@@ -2226,6 +2227,7 @@ ul {
     p {
       margin-bottom: 0;
       color: $white-color;
+      text-align: left;
 
       a {
         display: inline-block;
@@ -7847,17 +7849,19 @@ a.c-preview {
 
 section.blog-area.Blog-section.insights-section-main {
 
-  .section-title{
-    margin-bottom:0;
+  .section-title {
+    margin-bottom: 0;
   }
-  .square{
-    .section-title{
-      margin-bottom:30px;
+
+  .square {
+    .section-title {
+      margin-bottom: 30px;
     }
   }
+
   .row.align-items-center.pt-100 {
     text-align: center;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .row.insights-section-list {
@@ -7868,8 +7872,9 @@ section.blog-area.Blog-section.insights-section-main {
         text-align: left;
         display: block;
       }
-      h2{
-        span{
+
+      h2 {
+        span {
           margin-left: 0;
         }
       }
@@ -7968,11 +7973,11 @@ section.blog-area.Blog-section.insights-section-main {
 }
 
 .services-bg {
-  background-color: #F5F3F0;
-  background-image: url(../images/services-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fcf9f7;
+  // background-image: url(../images/services-bg.jpg);
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
 .page-title-area.title-bg-one.banner-item.leadership {
@@ -8005,7 +8010,8 @@ section.blog-area.Blog-section.insights-section-main {
   .item--icon {
     line-height: 1;
     margin-bottom: 19px;
-    i{
+
+    i {
       font-size: 65px;
       color: $dark-red;
     }
@@ -8183,6 +8189,32 @@ section.blog-area.Blog-section.insights-section-main {
 .team-area .social li.instagram a {
   background-color: #cd486b;
 }
+
 section.pt-100.pb-100.services-bg .col-sm-6.col-lg-4 {
   margin-bottom: 25px;
+}
+
+ul.footer-links {
+  float: right;
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+
+    a {
+      color: #fff;
+      font-size: 14px;
+      border-right: 1px solid white;
+      padding-right: 23px;
+
+    }
+  }
+}
+.borRight {
+  border-right: none !important;
 }
