@@ -85,7 +85,8 @@ a {
   transition: $transition;
   text-decoration: none;
   color: $main-color;
-  &:hover{
+
+  &:hover {
     color: $main-color;
   }
 }
@@ -8016,8 +8017,9 @@ section.blog-area.Blog-section.insights-section-main {
   z-index: 1;
   background: url("../images/leadership-banner.jpg");
 }
-section.Blog-section.insights-section-main.ptb-100 .col-lg-4.col-sm-12{
-margin-bottom: 25px;
+
+section.Blog-section.insights-section-main.ptb-100 .col-lg-4.col-sm-12 {
+  margin-bottom: 25px;
 }
 
 .item--meta {
@@ -8549,17 +8551,20 @@ ul.footer-links {
     bottom: 0;
   }
 }
+
 .custom-career-content {
   position: absolute;
   z-index: 99999;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #ffff;
 }
+
 section.team-area.four.ptb-100.Life-at-globus .col-lg-4.col-sm-12.p-0 {
   position: relative;
 }
+
 a.border-btn {
   padding: 10px 48px;
   border: 1px solid #fff;
@@ -8569,6 +8574,7 @@ a.border-btn {
   font-size: 20px;
   color: #fff;
 }
+
 .choose-us-img::before {
   content: "";
   position: absolute;
@@ -8580,18 +8586,21 @@ a.border-btn {
   background-color: darkred;
   z-index: -1;
 }
+
 .choose-us-content .top-title {
   font-size: 16px;
   font-weight: 600;
   color: darkred;
   display: block;
-}     
+}
+
 .choose-us-content p {
   margin-bottom: 40px;
   position: relative;
   z-index: 1;
   padding-left: 15px;
 }
+
 .choose-us-content p::before {
   content: "";
   position: absolute;
@@ -8600,4 +8609,26 @@ a.border-btn {
   width: 2px;
   height: 100%;
   background-color: darkred;
+}
+.choose-us-content ul{
+  margin-top: 30px;
+}
+.choose-us-content ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.choose-us-content ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: #a11d1d;
+  font-size: 17px;
+  text-align: center;
+}
+
+.choose-us-content ul li a {
+  line-height: 30px;
 }
