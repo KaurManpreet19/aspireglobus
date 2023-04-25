@@ -222,6 +222,15 @@ ul {
       color: $dark-red;
     }
   }
+  h1 {
+    font-size: 38px;
+    margin-bottom: 0;
+    line-height: 1.3;
+
+    span {
+      color: $dark-red;
+    }
+  }
 
   p {
     margin-bottom: 0;
