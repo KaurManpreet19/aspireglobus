@@ -7011,4 +7011,16 @@ form.ctz {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+i.size-larged {
+  font-size: 40px;
+  color: #931713;
+  margin-right: 20px;
+}
+
+ul.mega-menu.mega-menu--multiLevel li a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
