@@ -222,6 +222,7 @@ ul {
       color: $dark-red;
     }
   }
+
   h1 {
     font-size: 38px;
     margin-bottom: 0;
@@ -365,26 +366,21 @@ ul {
     text-align: left;
     height: 100%;
     gap: 8px;
+  }
 }
+
+a {
+  color: $main-color;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 16px;
+
+  &:hover {
+    color: $dark-red;
+
   }
-
-  a {
-    color: $main-color;
-    font-family: "Poppins";
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    font-size: 16px;
-
-    &:hover {
-      color: $dark-red;
-
-    }
-    i {
-      font-size: 32px;
-      margin-right: 8px;
-      color: $dark-red;
-    }
-  }
+}
 
 
 
@@ -880,7 +876,7 @@ ul {
 
 /*-- Banner --*/
 .banner-bg-one {
-  background-image: url("../images/bg2.webp");
+  background-image: url("../images/banner.png");
 }
 
 .banner-bg-two {
@@ -4520,14 +4516,12 @@ ul {
 .founder-area {
   .founder-content {
     margin-bottom: 30px;
-    color: #fff;
 
     .section-title {
       margin-bottom: 5px;
 
       h2 {
         margin-bottom: 5px;
-        color: #fff;
       }
     }
 
@@ -4537,6 +4531,7 @@ ul {
 
     .nav-pills {
       margin-bottom: 15px;
+      background: transparent;
 
       .nav-link {
         border-radius: 0;
@@ -6508,7 +6503,7 @@ form.ctz {
 
   margin-top: 21px;
   background: white;
-  padding: 42px 24px;
+  padding: 35px 24px;
   border-radius: 9px;
   padding-top: 14px;
 }
@@ -6553,8 +6548,8 @@ h3.boomQuote {
   text-align: center;
   padding: 18px;
   height: 266px;
-  margin: 19px;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .boomAddressCard svg {
@@ -6673,17 +6668,20 @@ hr.hrD {
 
 
   .title-content {
+    width: 60%;
+
     h1 {
       font-size: 50px;
       margin-bottom: 15px;
       color: white;
+
     }
   }
 }
 
 
 p.inner-banner-para {
-  width: 50%;
+  width: 62%;
   color: #fff;
   margin-top: 20px;
   font-size: 17px;
@@ -8631,9 +8629,11 @@ a.border-btn {
   height: 100%;
   background-color: darkred;
 }
-.choose-us-content ul{
+
+.choose-us-content ul {
   margin-top: 30px;
 }
+
 .choose-us-content ul li {
   list-style-type: none;
   display: inline-block;
@@ -8653,24 +8653,147 @@ a.border-btn {
 .choose-us-content ul li a {
   line-height: 30px;
 }
+
 form.ctz {
-  margin-top:0;
+  margin-top: 0;
 }
+
 .contact-left-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 i.size-larged {
   font-size: 40px;
   color: #931713;
   margin-right: 20px;
 }
+
 ul.mega-menu.mega-menu--multiLevel li a {
   display: flex;
   align-items: center;
   padding: 10px;
 }
+
 .row.justify-center {
   justify-content: center;
+}
+
+.Ceo-section {
+  a.common-btn {
+    margin-top: 30px;
+  }
+}
+
+
+insights-section-mains {
+  .text-left {
+    text-align: left !important;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+.block1-box-img,
+.block1-box-img1 {
+  position: relative;
+}
+
+.block1-box {
+  padding: 20px !important;
+  min-height: 360px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.block1-box-img,
+.block1-box-img1,
+.section14-box-img,
+.software-block-img {
+  background-position: center center;
+  background-size: cover;
+}
+
+.block1-box .link,
+.block1-box p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  padding-left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.block1-box .link,
+.block1-box p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  padding-left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.block1-box .link {
+  font-size: 16px;
+}
+
+.block1-box:hover .link {
+  padding-left: 20px;
+}
+
+.bg-color-7 {
+  background-color: $dark-red !important;
+}
+
+.bg-color-3 {
+  background-color: $dark-red !important;
+
+}
+
+.bg-color-1 {
+  background-color: $main-color !important;
+}
+
+.block1-box.bg-color-3 {
+  color: #fff;
+
+  h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.block1-box.bg-color-7 {
+  color: #fff;
+
+  h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.block1-box.bg-color-1 {
+  color: #fff;
+
+  h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
 }
