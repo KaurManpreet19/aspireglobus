@@ -329,8 +329,7 @@ a {
 a:hover {
   color: #9a1a18;
 }
-
-i {
+a i {
   font-size: 32px;
   margin-right: 8px;
   color: #9a1a18;
