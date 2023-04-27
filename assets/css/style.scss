@@ -366,6 +366,10 @@ ul {
     text-align: left;
     height: 100%;
     gap: 8px;
+
+    img{
+      max-width: 60px;
+    }
   }
 }
 
@@ -880,7 +884,7 @@ a {
 }
 
 .banner-bg-two {
-  background-image: url("../images/bg2.webp");
+  background-image: url("../images/banner\ 2.png");
 }
 
 .banner-bg-three {

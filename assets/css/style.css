@@ -318,6 +318,9 @@ ul {
   height: 100%;
   gap: 8px;
 }
+.whyDifferent li img {
+  max-width: 60px;
+}
 
 a {
   color: #3e3e3e;
@@ -729,7 +732,7 @@ a:hover {
 }
 
 .banner-bg-two {
-  background-image: url("../images/bg2.webp");
+  background-image: url("../images/banner 2.png");
 }
 
 .banner-bg-three {
